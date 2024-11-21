@@ -1,9 +1,11 @@
 # SRA-MCTS: 自驱动推理增强与蒙特卡罗树搜索用于增强代码生成
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ac48dbeb-8314-4a67-bc89-215e9b7ec34e" width="700" height="400" />
+  <img src="https://github.com/user-attachments/assets/754d13ef-f5fc-4147-8f71-812a006a9400" width="700" height="400" />
 </div>
-
-该仓库是为论文[SRA-MCTS: Self-Driven Reasoning Augmented with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/pdf/2411.11053)构造的。如果您有任何问题或建议，请随时告诉我们。您可以通过[binxu@bit.edu.cn](binxu@bit.edu.cn)联系我们，或直接在此仓库上发布问题。
+<p align="center">
+  📄 <a href="https://arxiv.org/pdf/2411.11053" target="_blank">Paper</a> &nbsp; | &nbsp;
+  🤗 <a href="#代码" target="_blank">Quick start</a> &nbsp;
+</p>
 
 # 目录
 - [概述](#概述)

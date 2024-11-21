@@ -5,6 +5,7 @@
 <p align="center">
   📄 <a href="https://arxiv.org/pdf/2411.11053" target="_blank">Paper</a> &nbsp; | &nbsp;
   🤗 <a href="#代码" target="_blank">Quick start</a> &nbsp;
+  ⚖️ <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache-2.0 License</a>
 </p>
 
 # 目录

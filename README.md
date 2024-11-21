@@ -1,10 +1,14 @@
 
 # SRA-MCTS: Self-driven Reasoning Augmentation with Monte Carlo Tree Search for Enhanced Code Generation
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ac48dbeb-8314-4a67-bc89-215e9b7ec34e" width="700" height="400" />
-</div>
 
-This repository is constructed for the paper [SRA-MCTS: Self-driven Reasoning Augmentation with Monte Carlo Tree Search for Enhanced Code Generation](https://arxiv.org/pdf/2411.11053). If you have any questions or suggestions, feel free to contact us. You can reach us via email [binxu@bit.edu.cn](binxu@bit.edu.cn) or by posting issues directly in this repository.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/754d13ef-f5fc-4147-8f71-812a006a9400" width="700" height="400" />
+</div>
+<p align="center">
+  📄 <a href="https://arxiv.org/pdf/2411.11053" target="_blank">Paper</a> &nbsp; | &nbsp;
+  🤗 <a href="#code" target="_blank">Quick start</a> &nbsp;
+</p>
+
 
 # Table of Contents
 - [Overview](#overview)

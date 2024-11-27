@@ -1,6 +1,6 @@
 # SRA-MCTS: 自驱动推理增强与蒙特卡罗树搜索用于增强代码生成
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/754d13ef-f5fc-4147-8f71-812a006a9400" width="700" height="400" />
+  <img src="images/head.png" width="700" height="400" />
 </div>
 <p align="center">
   📄 <a href="https://arxiv.org/pdf/2411.11053" target="_blank">Paper</a> &nbsp; | &nbsp;
@@ -26,7 +26,10 @@
 3. 我们开源了Meta-Llama-3.1-8B生成的全流程数据，覆盖推理路径、最终代码。
 
 总体流程如下：
-![pipeline](https://github.com/user-attachments/assets/07c5c70a-d908-4a63-90bf-248fad01c85b)
+<div align="center">
+  <img src="images/pipeline.png" />
+</div>
+
 
 # 实验结果
 通过广泛的实验，我们发现：
@@ -49,14 +52,16 @@
 ### 外部模型生成数据和自身生成数据的对比
 
 <p align="center">
-  <img width="500" alt="62b86fc1ed018e717e1ef1ae806d88e" src="https://github.com/user-attachments/assets/b8d78db2-5c08-40a9-b24b-75ee5018de58">
+  <img width="500" alt="62b86fc1ed018e717e1ef1ae806d88e" src="images/experiment1.png">
 </p>
 
 上图展示了同一模型在自生成数据与由外部模型蒸馏得到数据上的性能对比。在此对比中，外部模型使用的是 **Meta-Llama-3-70B-Instruct**。
 
 ### 消融实验
 
-![ablation](https://github.com/user-attachments/assets/86be3459-c9ca-45d1-8f0c-30e508c3cde3)
+<div align="center">
+  <img src="images/ablation.png" />
+</div>
 
 该实验研究了自然语言推理步骤在模型回答中的作用，其中 **SRA-MCTS** 的训练数据包含自然语言推理与代码，另一组数据则只包含代码。
 
@@ -71,7 +76,7 @@
 ### 不同方法的性能对比
 
 <p align="center">
-  <img width="694" alt="e6b067489885e4de46dac0b2f8b15a9" src="https://github.com/user-attachments/assets/39ebe376-81e7-47e3-b57b-c2f8687668d5">
+  <img width="694" alt="e6b067489885e4de46dac0b2f8b15a9" src="images/experiment2.png">
 </p>
 
 上表对比了 **官方发布的指令版本**、**CoT 训练版本** 和我们提出的 **SRA-MCTS** 在 **2B**、**8B** 和 **14B** 规模下的性能表现。表中标有 **`*`** 和 **加粗** 的值表示在特定基准测试中，该模型在该规模类别下表现最优。

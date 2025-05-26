@@ -172,4 +172,3 @@ then
 This process produces the final fine-tuning dataset, which can be used for subsequent fine-tuning tasks. The open-source dataset files are available in the corresponding folders, and you can refer to their formats and content for guidance.
 
 Our inspiration comes from [ReST-MCTS*](https://arxiv.org/abs/2406.03816). The original method was designed to enhance a model's capabilities in mathematical reasoning, using Monte Carlo methods to derive the final results. Our approach extends this concept to the code domain, leveraging Monte Carlo to generate intermediate reasoning processes.
-
